@@ -155,7 +155,7 @@ And now we can produce a graph to show the comparison
 library("ggplot2")
 ggplot(meanperdaygroup, aes(Interval, Steps)) + geom_line() + 
     facet_wrap(~weekzone, ncol = 1) + 
-    labs(title = expression("Activty patterns on Weekdays and Weekends"))
+    labs(title = "Activty patterns on Weekdays and Weekends")
 
 ```
 

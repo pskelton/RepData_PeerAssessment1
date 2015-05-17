@@ -215,7 +215,7 @@ library("ggplot2")
 ```r
 ggplot(meanperdaygroup, aes(Interval, Steps)) + geom_line() + 
     facet_wrap(~weekzone, ncol = 1) + 
-    labs(title = expression("Activty patterns on Weekdays and Weekends"))
+    labs(title = "Activty patterns on Weekdays and Weekends")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-17-1.png) 
